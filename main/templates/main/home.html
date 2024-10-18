@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+    <script src="{% static 'main/js/script.js' %}"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a id="about" href="https://jobvision.ir/my-cv">About Me</a>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p><b>Dedicated and motivated student with a strong work ethic and a passion for collaborative projects. Eager to leverage my skills in a challenging internship or position that fosters professional growth and broadens my communication network. Committed to contributing positively to team dynamics while gaining valuable hands-on experience.</b></p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Django</li>
+            <li>Machine Learning</li>
+            <li>HTML/CSS/javascript</li>
+            <li>C#/Asp.net</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+    
+                <li>
+                    <a href="https://github.com/bahar-abn">My GitHUb Profile</a>
+                </li>
+        </ul>
+    </section>
+    <section id="soft_skills">
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Team work</li>
+            <li>Creative</li>
+            <li>Patient</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2>languages</h2>
+        <ul>
+            <li>English</li>
+            <li>France</li>
+            <li>Turkish</li>
+        </ul>
+    </section>
+
+    <section id="Educational records">
+        <h2>Educational records</h2>
+        <ul>
+            <li>Bachelor of Computer Engineering</li>
+            <li>Univercity : Hamedan University of Technology</li>
+            <li>Semester 3</li>
+        </ul>
+
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <a href="mailto:www.bahar20abn@gmail.com">Send email to Me</a>
+        <br>
+        <a href="https://t.me/bahar_abnn">Telegram</a>
+        
+    </section>
+
+    <footer>
+        <p>© {{ current_year }} Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
